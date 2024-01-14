@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TASTING</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="match.css">
+    <link rel="stylesheet" href="animation.css">
+</head>
+<body>
+    <script src="skrip.js">  </script>
+
+<div class="match" id="match">
+    <div id="tangan-com" class="tangan-com">
+        <div class="rectangle-bg"></div>
+
+        <div class="container-icon2">
+            <img src="./asset/paper-com.png" alt="" width="200px" class="com-none">
+            <img src="./asset/paper-com.png" alt="" width="200px" class="com-paper icon">
+            <img src="./asset/rock-com.png" alt="" width="200px" class="com-rock icon">
+            <img src="./asset/scissors-com.png" alt="" width="200px" class="com-scissors icon">
+        </div>
+    </div>
+    
+
+    <div id="tangan-player" class="tangan-player slide-top">
+        <div class="container-icon">
+            <img src="./asset/paper.png" alt="" width="200px" class="player-none">
+            <img src="./asset/paper.png" alt="" width="200px" class="player-paper icon">
+            <img src="./asset/rock.png" alt="" width="200px" class="player-rock icon">
+            <img src="./asset/scissors.png" alt="" width="200px" class="player-scissors icon">
+        </div>
+    
+        <div class="rectangle-bg"></div>
+    </div>
+</div>
+
+<div class="menu" id="menu">
+    <div class="header">
+        <h1>Rock Paper<br>Scissors</h1>
+    </div>
+
+    <div class="container-icon2">
+        <img src="./asset/rock-com.png" alt="" width="150px" class="rock">
+    </div>
+    
+
+    <div class="container-icon">
+        <img src="./asset/scissors.png" alt="" width="150px" class="scissors">
+    </div>
+
+
+    <div class="container">
+        <button class="user-choice" id="batu" onclick="playbatu()">
+            <img src="./asset/rock.png" alt="" width="70px">
+        </button>
+        <button class="user-choice" id="kertas" onclick="playkertas()">
+            <img src="./asset/paper.png" alt="" width="70px">
+        </button>
+        <button class="user-choice" id="gunting" onclick="playgunting()">
+            <img src="./asset/scissors.png" alt="" width="70px">
+        </button>
+    </div>
+</div>
+
+<div id="notif" class="notif">
+    <div>
+        <h1 id="notif-h1"></h1>
+        <button onclick="retry()">
+            <img src="./asset/retry.png" alt="" width="30px">
+        </button>
+    </div>
+</div>
+
+</body>
+</html>

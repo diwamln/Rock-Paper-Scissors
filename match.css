@@ -1,0 +1,132 @@
+#match {
+    display: none;
+}
+
+.main {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.container-icon2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+body {
+    color: white;
+    background-color: #ffeb98;
+}
+
+.rectangle-bg {
+    background-color: rgb(39, 185, 39);
+    border: solid 10px rgb(18, 18, 18);
+    height: 1000px;
+    width: 100px;
+    margin: 0;
+}
+
+.tangan-com {
+    position: fixed;
+    bottom: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tangan-player {
+    position: fixed;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.player-none {
+    display: flex;
+    opacity: 0%;
+}
+
+.player-rock {
+    display: none;
+}
+
+.player-paper {
+    display: none;
+}
+
+.player-scissors {
+    display: none;
+}
+
+.com-none {
+    opacity: 0%;
+    display: flex;
+}
+
+.com-rock {
+    display: none;
+}
+
+.com-paper {
+    display: none;
+}
+
+.com-scissors {
+    display: none;
+}
+
+.icon {
+    position: absolute;
+}
+
+
+
+
+.notif {
+    position: fixed;
+    display: none;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.notif div {    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #ffffff6f;
+    align-items: center;
+    border-radius: 30px;
+    padding: 30px;
+}
+
+.notif div button {
+    padding: 20px;
+    color: white;
+    background-color: #d7a343;
+    border: none;
+    border-radius: 30%;
+}
